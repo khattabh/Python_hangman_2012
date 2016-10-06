@@ -1,0 +1,79 @@
+Python 3.3.0 (v3.3.0:bd8afb90ebf2, Sep 29 2012, 10:57:17) [MSC v.1600 64 bit (AMD64)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> ================================ RESTART ================================
+>>> 
+Welcome to Phrase Puzzler!
+Choose the game type:
+     [1] - One Player
+     [2] - Two player (human opponent)
+     [3] - Two player (computer opponent)
+3
+Enter the game difficulty ([E]asy or [H]ard):  H
+==================================================
+Player One, it's your turn. You have 0 points.
+
+^ ^^^^ ^^^ ^^^^ ^^^ ^^^^^
+
+[C]onsonant, [V]owel, [S]olve, [Q]uit: C
+Please enter a consonant [bcdfghjklmnpqrstvwxyz]: c
+The guess was c, which occurs 1 time(s).  Your score is 1.
+==================================================
+Player One, it's your turn. You have 1 points.
+
+^ ^^^^ ^^^ ^^^^ ^^^ c^^^^
+
+[C]onsonant, [V]owel, [S]olve, [Q]uit: V
+Please enter a vowel [aeiou]: a
+The guess was a, which occurs 3 time(s).  Your score is 0.
+==================================================
+Player One, it's your turn. You have 0 points.
+
+^ ^^a^ ^^^ ^^^^ a^^ c^^a^
+
+[C]onsonant, [V]owel, [S]olve, [Q]uit: c
+Please enter a consonant [bdfghjklmnpqrstvwxyz]: y
+The guess was y, which occurs 1 time(s).  Your score is 1.
+==================================================
+Player One, it's your turn. You have 1 points.
+
+^ ^^a^ y^^ ^^^^ a^^ c^^a^
+
+[C]onsonant, [V]owel, [S]olve, [Q]uit: c
+Please enter a consonant [bdfghjklmnpqrstvwxz]: h
+The guess was h, which occurs 1 time(s).  Your score is 2.
+==================================================
+Player One, it's your turn. You have 2 points.
+
+^ h^a^ y^^ ^^^^ a^^ c^^a^
+
+[C]onsonant, [V]owel, [S]olve, [Q]uit: 
+Invalid input.
+[C]onsonant, [V]owel, [S]olve, [Q]uit: v
+Please enter a vowel [eiou]: i
+The guess was i, which occurs 1 time(s).  Your score is 1.
+==================================================
+Player One, it's your turn. You have 1 points.
+
+i h^a^ y^^ ^^^^ a^^ c^^a^
+
+[C]onsonant, [V]owel, [S]olve, [Q]uit: v
+Please enter a vowel [eou]: e
+The guess was e, which occurs 2 time(s).  Your score is 0.
+==================================================
+Player One, it's your turn. You have 0 points.
+
+i hea^ y^^ ^^^^ a^^ c^ea^
+
+[C]onsonant, [V]owel, [S]olve, [Q]uit: c
+Please enter a consonant [bdfgjklmnpqrstvwxz]: c
+Invalid choice.  Please enter a consonant: l
+The guess was l, which occurs 2 time(s).  Your score is 2.
+==================================================
+Player One, it's your turn. You have 2 points.
+
+i hea^ y^^ l^^^ a^^ clea^
+
+[C]onsonant, [V]owel, [S]olve, [Q]uit: s
+Please enter your guess: i hear you loud and clear
+Winner! You scored 12 point(s).
+>>> 
